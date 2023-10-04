@@ -17,7 +17,7 @@ class Product {
     public function showDetails(){
 	 echo "ID: ".$this->id."\n";
 	 echo "Name: ".$this->name."\n";
-	 echo "Price: ".$this->getFormattedPrice($this->price);
+	 echo "Price: $".$this->getFormattedPrice($this->price);
 	}
 }
 $product = new Product(1, 'T-shirt', 19.99);
